@@ -11,5 +11,6 @@ button.addEventListener("click", event => {
         document.body.appendChild(newComment);
         textContComment.classList.add("commentNew")
         newComment.appendChild(textContComment);
+        document.getElementById("comment").value = "";
     }
 })
