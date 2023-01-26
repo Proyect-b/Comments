@@ -1,0 +1,9 @@
+.commentNew {
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
