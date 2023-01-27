@@ -1,9 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contentComments {
+    margin-top: 10px;
+}
+
+.commentsCont {
+    border: 1px grey solid;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
 .commentNew {
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 15px;
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 100px;
+    border-top-left-radius: 20px;
     display: inline-block;
     font-size: 15px;
+    margin: 5px 0px 0px 40px;
+}
+
+#send {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: white;
+    border: none;
+}
+
+#send:active {
+    scale: .9;
+    transition: .5s all;
+}
+
+#comment {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+}
+
+#comment:focus {
+    outline: none;
+}
+
+.content {
+    margin: 30px;
+}
+
+.icon {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.name {
+    font-size: 15px;
+
+}
+
+.topComment {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
